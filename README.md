@@ -1,5 +1,4 @@
-# JiraLogTime
-
+# JiraLogWork
 <pre>
 Log work for a given JIRA
 usage: 
@@ -19,7 +18,9 @@ optional arguments:
   --time_spent TIME_SPENT       how long to log per day
   --days DAYS                   days to log - will not be used if end_date is specified
   --only_workday ONLY_WORKDAY   if it's only for workdays i.e. skip weekends. Default is True
-  
+  </pre>
+# JiraDeleteLogWork
+  <pre>
 Delete worklog in a given JIRA for the user ONLY
 usage:
 python JiraDeleteLogWork  [-h] 
